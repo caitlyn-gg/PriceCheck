@@ -30,7 +30,7 @@ public partial class ConfigWindow
 
                 ImGui.TextUnformatted("Discord:");
                 ImGui.SameLine();
-                ImGui.TextColored(ImGuiColors.ParsedGold, "@infi");
+                ImGui.TextColored(ImGuiColors.ParsedGold, "@caitlyn.gg");
 
                 ImGui.TextUnformatted("Version:");
                 ImGui.SameLine();
@@ -55,14 +55,14 @@ public partial class ConfigWindow
             using (ImRaii.PushColor(ImGuiCol.Button, ImGuiColors.DPSRed))
             {
                 if (ImGui.Button("Issues"))
-                    Dalamud.Utility.Util.OpenLink("https://github.com/Infiziert90/PriceCheck/issues");
+                    Dalamud.Utility.Util.OpenLink("https://github.com/caitlyn-gg/PriceCheck/issues");
             }
 
             ImGui.SameLine();
 
             using (ImRaii.PushColor(ImGuiCol.Button, new Vector4(0.12549f, 0.74902f, 0.33333f, 0.6f)))
             {
-                if (ImGui.Button("Ko-Fi Tip"))
+                if (ImGui.Button("Ko-Fi Tip (Infi)"))
                     Dalamud.Utility.Util.OpenLink("https://ko-fi.com/infiii");
             }
         }

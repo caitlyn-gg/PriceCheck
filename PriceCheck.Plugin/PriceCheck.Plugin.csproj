@@ -1,7 +1,7 @@
-<Project Sdk="Dalamud.NET.Sdk/14.0.1">
+﻿<Project Sdk="Dalamud.NET.Sdk/14.0.1">
 	<PropertyGroup>
 		<Title>PriceCheck.Plugin</Title>
-		<Authors>Infi, kalilistic</Authors>
+		<Authors>Infi, kalilistic, Caitlyn</Authors>
 		<Version>2.7.4.0</Version>
 		<TargetFramework>net10.0-windows</TargetFramework>
 		<Platforms>x64</Platforms>
